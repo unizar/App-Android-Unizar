@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:padding="20dip" 
+    android:orientation="vertical"
+    style="@style/Estilo_Unizar">
+         
+         <EditText android:id="@+id/txtNewUsuario" 
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent" 
+             android:hint="@string/hint_usuario" 
+             android:inputType="text" />
+         
+         <EditText
+             android:id="@+id/txtNewPassword"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dip"
+             android:hint="@string/hint_passw"
+             android:inputType="textPassword" />
+         
+         <EditText
+             android:id="@+id/txtNewNombre"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dip"
+             android:hint="@string/hint_nombre"
+             android:inputType="text" />
+         
+         <EditText
+             android:id="@+id/txtNewApellidos"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dip"
+             android:hint="@string/hint_apellidos"
+             android:inputType="text" />
+                  
+         <EditText
+             android:id="@+id/txtNewDni"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dip"
+             android:hint="@string/hint_dni"
+             android:inputType="text|text" />
+
+        <EditText
+            android:id="@+id/txtNewEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+        
+        <EditText
+            android:id="@+id/txtPreguntaSeg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:hint="@string/hint_pregunta_seg"
+            android:inputType="text" />
+        
+        <EditText
+            android:id="@+id/txtRespuestaSeg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:hint="@string/hint_respuesta_seg"
+            android:inputType="textEmailAddress" />
+         
+         <Button
+             android:id="@+id/btnRegister"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="35dip"
+             android:background="#2d6898"
+             android:paddingLeft="15dip"
+             android:paddingRight="15dip"
+             android:text="@string/txt_registro"
+             android:textColor="#ffffff" />
+         
+         <TextView android:id="@+id/register_error"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="40dip"
+             android:layout_marginBottom="40dip"
+             android:gravity="center"
+             android:textSize="20dip"
+             android:textColor="#0b84aa"/>
+     
+    
+</LinearLayout>
+</ScrollView>

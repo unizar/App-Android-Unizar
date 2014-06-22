@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<RelativeLayout 
+    style="@style/Estilo_Unizar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start" >
+
+  <EditText
+      android:id="@+id/txtCreditosAct"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/lblnombreActividadCred"
+      android:ems="10" />
+
+  <TextView
+      android:id="@+id/lblnombreActividadCred"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:text="Large Text"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:textColor="#5390ed"
+      android:textStyle="bold"
+      android:typeface="sans" />
+
+  <TextView
+      android:id="@+id/lblCreditosAct"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/txtCreditosAct"
+      android:layout_alignParentLeft="true"
+      android:text="Creditos"
+      android:textColor="#5390ed"
+      android:typeface="sans" />
+    
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<RelativeLayout
+   
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    style="@style/Estilo_Unizar"
+    tools:context=".MainActivity" >
+    
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actividades_publicas"
+        android:background="#2d6898"
+        android:onClick="lanzarLogin"
+        android:text="@string/boton_login"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/actividades_publicas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+         android:layout_marginTop="10dp"
+        android:layout_below="@+id/bLogin"
+        android:background="#2d6898"
+        android:gravity="center"
+        android:onClick="lanzarPublicas"
+        android:text="@string/boton_publicas"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Alertas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actividades_publicas"
+	    android:layout_marginTop="10dp"
+        android:layout_below="@+id/actividades_publicas"
+        android:background="#2d6898"
+        android:gravity="center"
+        android:onClick="mostrarAlertas"
+        android:text="@string/title_alertas"
+        android:textColor="#ffffff" />
+
+	<Button
+	    android:id="@+id/Salir"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/actividades_publicas"
+	    android:layout_below="@id/Alertas"
+	    android:layout_marginTop="60dp"
+	    android:background="#2d6898"
+	    android:onClick="salir"
+	    android:text="@string/salir"
+	    android:textColor="#ffffff" />
+
+</RelativeLayout>
+</ScrollView>

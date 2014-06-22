@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<RelativeLayout 
+    android:id="@+id/layoutPubli"
+    style="@style/Estilo_Unizar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActividadesPublicas" 
+    android:scrollbars="vertical">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Actividades Públicas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#5390ed"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/botonesPubli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/titulo"
+        android:layout_below="@+id/titulo"
+        android:orientation="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:visibility="visible" >
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campus Unizar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="boton_publicas">Actividades Públicas</string>
+    <string name="boton_privadas">Actividades Privadas</string>
+    <string name="entrada_pass">Password:</string>
+    <string name="boton_login">Login</string>
+    <string name="entrada_usuario">Usuario:</string>
+    <string name="title_activity_actividades_publicas">Actividades Publicas</string>
+    <string name="title_activity_actividades_privadas">Actividades Privadas</string>
+    <string name="title_activity_inscribir_actividades">Inscribir Actividades</string>
+    <string name="title_activity_acceso_privado">Acceso Privado</string>
+    <string name="title_activity_publica_inscrita">Actividad Pública Inscrita</string>
+    <string name="title_registro_usuario">Registro</string>
+    <string name="title_creditos_maximos">Máximo Creditos</string>
+    <string name="title_remember_password">Recordar Contraseña</string>
+    <string name="title_change_password">Cambiar Contraseña</string>
+    <string name="salir">Salir</string>
+    <string name="etiqueta_usuario">Usuario:</string>
+    <string name="zona_privada">Zona Privada</string>
+    <string name="creditos">Créditos</string>
+    <string name="actividades_privadas">Actividades Privadas</string>
+    <string name="title_activity_creditos">Gestion de Creditos</string>
+    <string name="txt_registro">Registrarse</string>
+    <string name="txt_enviar">Enviar</string>
+    <string name="txt_rememberpass">Recordar Contraseña</string>
+    <string name="boton_savenewpass">Guardar Nueva Contraseña</string>
+    <string name="txt_newpass">Nueva Contraseña</string>
+    <string name="txt_newpass1">Repetir Nueva Contraseña</string>
+    <string name="activity_sin_inscribir">actividades_privadas_sin_inscribir</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_passw">Password</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="hint_dni">DNI</string>
+    <string name="hint_email">Email</string>
+   	<string name="hint_pregunta_seg">Pregunta Seguridad</string>
+    <string name="hint_respuesta_seg">Respuesta Seguridad</string>
+    <string name="title_encuestas">Encuestas</string>
+    <string name="title_alertas">Alertas</string>
+    <string name="title_atividades_alertas">Actividades con Alerta</string>
+    
+    
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.campusunizar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.campusunizar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.LoginUsuario" >
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.AccesoPrivado"
+            android:label="@string/title_activity_acceso_privado" >
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.InscribirPrivadas"
+            android:label="@string/title_activity_inscribir_actividades" >
+        </activity>
+        <activity
+            android:name="com.example.campusunizar.ActividadesPublicas"
+            android:label="@string/title_activity_actividades_publicas" >
+        </activity>
+        <activity
+            android:name="com.example.campusunizar.ActividadesPrivadas"
+            android:label="@string/title_activity_actividades_privadas" >
+        </activity>
+        <activity
+            android:name="com.example.campusunizar.ActividadPrivadaActual"
+            android:label="@string/title_activity_actividades_privadas">
+        </activity>
+         <activity
+            android:name="com.example.campusunizar.ActividadPublicaActual"
+            android:label="@string/title_activity_actividades_publicas">
+        </activity>
+        <activity
+            android:name="com.example.campusunizar.Creditos"
+            android:label="@string/title_activity_creditos">
+        </activity>
+        <activity
+            android:name="com.example.campusunizar.itemCreditoAdapter"
+            android:label="@string/title_activity_creditos">
+        </activity>
+        <activity
+            android:name="com.example.campusunizar.ActividadPublicaInscrita"
+            android:label="@string/title_activity_publica_inscrita">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.CreditosMaximo"
+            android:label="@string/title_creditos_maximos">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.RegistroUsuario"
+            android:label="@string/title_registro_usuario">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.RememberPassword"
+            android:label="@string/title_remember_password">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.ChangePassword"
+            android:label="@string/title_change_password">
+        </activity>
+         <activity 
+            android:name="com.example.campusunizar.Encuestas"
+            android:label="@string/title_encuestas">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.EncuestaActual"
+            android:label="@string/title_encuestas">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.Alertas"
+            android:label="@string/title_alertas">
+        </activity>
+        <activity 
+            android:name="com.example.campusunizar.AlertasActividad"
+            android:label="@string/title_alertas">
+        </activity>
+    </application>
+
+</manifest>

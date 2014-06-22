@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<RelativeLayout 
+    style="@style/Estilo_Unizar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_user"
+        android:layout_width="wrap_content"
+        android:textColor="#2d6898"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/text_user2"/>
+    
+    <TextView
+        android:id="@+id/text_user2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_user"
+        android:layout_centerHorizontal="true"
+        android:text="@string/zona_privada"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#2d6898"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <Button
+        android:id="@+id/bAccesoPrivadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_user2"
+        android:layout_marginTop="100dp"
+        android:background="#2d6898"
+        android:text="@string/actividades_privadas"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bInscribirPrivadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btEncuestas"
+        android:layout_below="@id/bAccesoPrivadas"
+        android:layout_marginTop="10dp"
+        android:background="#2d6898"
+        android:text="@string/title_activity_inscribir_actividades"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btEncuestas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bInscribirPrivadas"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/text_user"
+        android:background="#2d6898"
+        android:text="Realizar encuesta"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btEncuestas"
+        android:layout_below="@+id/btEncuestas"
+        android:layout_marginTop="10dp"
+        android:background="#2d6898"
+        android:onClick="lanzarCreditos"
+        android:text="@string/creditos"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
+</ScrollView>
